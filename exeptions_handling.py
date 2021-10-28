@@ -7,7 +7,7 @@ def divisors(num):
 
 def run():
     try:
-        num = input('Ingresa un numero: ')
+        num = int(input('Ingresa un numero: '))
         print(divisors(num))
         print("Termino mi programa")
     except ValueError as ve:
